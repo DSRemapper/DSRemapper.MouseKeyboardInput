@@ -134,7 +134,7 @@ namespace DSRemapper.MouseKeyboardInput
             return report;
         }
         /// <inheritdoc/>
-        public void SendOutputReport(DefaultDSROutputReport report)
+        public void SendOutputReport(IDSROutputReport report)
         {
 
         }
